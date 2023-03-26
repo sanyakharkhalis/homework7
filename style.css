@@ -1,0 +1,321 @@
+body {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  }
+  
+  p, 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  .hero-heading {
+    
+  width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: black;
+  
+  
+  }
+  
+  .hero-button {
+    
+  width: 216px;
+  height: 50px;
+  display: block;
+  
+  margin: 0 auto;
+  
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  }
+  
+  .hero {
+    /* display: flex
+    flex-direction: column
+    justify-content: center
+    allign-items: center; */
+  }
+  
+  
+  
+  /*---------------------------HEADER-----------------------------*/
+  
+  .header {
+    display: flex; 
+  
+    padding-top: 25px; 
+    margin-left: 215px;
+  }
+  
+
+  
+  .nav-list {
+    display: flex;
+    margin-right: 255px;
+  
+  }
+
+  .nav-list_item::before {
+    content: "";
+    display: block;
+  
+    width: 270px;
+    height: 120px;
+  
+    background: #F5F4FA;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+   
+  }
+  
+  .bcg::before {
+    background-image: url(/images/Vector.jpg);
+  }
+
+  .bcg1::before {
+    background-image: url(/images/vector.1.jpg);
+     }
+
+  .bcg2::before {
+    background-image: url(/images/vector.2.jpg);
+  }
+
+ .bcg3::before {
+  background-image: url(/images/vector.3.jpg);
+ }
+  
+ 
+  .nav{
+    display: flex;
+  }
+  
+  
+  .contacts {
+    display: flex;
+  }
+  
+  
+  
+  
+  .contacts-item:not(:last-child) {
+    margin-right: 50px;
+  
+  }
+  
+  .nav-list-item {
+    
+  
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  
+  }
+
+  /*---------------------------------HERO-----------------------------*/
+
+
+  .hero-heading {
+    width: 696px;
+    height: 120px;
+    margin: 0 auto;
+  
+    margin-bottom: 30px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+  
+  .hero-button {
+    width: 216px;
+    height: 50px;
+  
+    display: block;
+  
+    margin: 0 auto;
+  
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  
+    outline: none;
+    border: none;
+  }
+  
+  .hero {
+    background-image: url(/images/img.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  
+    width: 1600px;
+  
+    padding-top: 200px;
+    padding-bottom: 200px;
+  
+    background-color: rgba(47, 48, 58, 0.4);
+  }
+
+  .tekst {
+    
+width: 270px;
+height: 16px;
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+  }
+
+  .tekst1 {
+   
+width: 270px;
+height: 72px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+  }
+
+/* about */
+
+.about__list {
+  display: flex;
+  justify-content: center;
+}
+
+.about__list--item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about__list--item {
+  position: relative;
+}
+
+.about__img {
+
+}
+
+
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+
+
+
+
+width: 370px;
+height: 70px;
+
+
+
+
+background: rgba(47, 48, 58, 0.8);
+
+}
+.about__text {
+  margin-top: 27px;
+  margin-bottom: 27px;
+ 
+  
+  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
